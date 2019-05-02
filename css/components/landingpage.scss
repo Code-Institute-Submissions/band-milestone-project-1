@@ -1,0 +1,53 @@
+.band-name-banner {
+    background-color: $bar-color;
+}
+
+.header-main-text {
+    font: {
+        family: $head-font;
+        size: 35px;
+        weight: 500;
+    }
+    position: relative;
+    top: 10px;
+    color: white;
+    text-align: center;
+}
+
+main {
+    background-color: $main-bg-color;
+    height: 100%;
+    width: 100%;
+}
+
+.welcome-section {
+    background-color: $content-bg-color;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 25px;
+}
+
+.content-head-font {
+    @include content-header;
+}
+
+.news-content {
+    @include content-font;
+}
+
+.divider {
+    background-color: $bar-color;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 3px;
+    width: 15%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+}

@@ -1,0 +1,26 @@
+@mixin header-font {
+    font: {
+        family: $head-font;
+        weight: 700;
+        size: 26px;
+    }
+    color: $head-font-color;
+}
+
+@mixin content-font {
+    font: {
+        family: $content-font;
+        weight: 400;
+        size: 22px;
+    }
+    color: $content-font-color;
+}
+
+@mixin content-header {
+    font: {
+        family: $head-font;
+        size: 24px;
+        weight: 600;
+    }
+    color: $head-font-color;
+}

@@ -1,0 +1,20 @@
+.nav-bar {
+    @include header-font;
+}
+
+nav ul li a {
+    color: $head-font-color;
+    margin: 10px;
+    font: {
+        family: "Dosis";
+        weight: 700;
+        size: 22px;
+    }
+    position: relative;
+    top: 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: $content-font-grey;
+}
