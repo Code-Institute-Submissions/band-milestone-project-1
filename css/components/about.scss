@@ -1,0 +1,20 @@
+.mem-img {
+    width: 200px;
+    height: auto;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -8px 10px 5px 2px rgba(0,0,0,0.6);
+    -webkit-box-shadow: -8px 10px 5px 2px rgba(0,0,0,0.6);
+    -moz-box-shadow: -8px 10px 5px 2px rgba(0,0,0,0.6);
+}
+
+.member-content {
+    @include content-font;
+}
+
+.mem-head-font {
+    @include content-header;
+    color: $content-font-color;
+}

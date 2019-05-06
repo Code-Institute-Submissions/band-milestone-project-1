@@ -3,10 +3,10 @@
   font-family: "Dosis", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  color: black; }
+  color: white; }
 
 nav ul li a {
-  color: black;
+  color: #2C3539;
   margin: 10px;
   font-family: "Dosis";
   font-weight: 700;
@@ -37,7 +37,7 @@ header {
 .header-main-text {
   font-family: "Dosis", sans-serif;
   font-size: 35px;
-  font-weight: 500;
+  font-weight: 600;
   position: relative;
   top: 10px;
   color: white;
@@ -55,7 +55,7 @@ main {
   display: block;
   height: auto;
   width: 80%;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 30px;
   padding: 25px; }
 
@@ -63,7 +63,7 @@ main {
   font-family: "Dosis", sans-serif;
   font-size: 24px;
   font-weight: 600;
-  color: black; }
+  color: white; }
 
 .news-content {
   font-family: "Open Sans", sans-serif;
@@ -82,9 +82,49 @@ main {
   margin-bottom: 30px;
   border-radius: 25px; }
 
+.date-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400i;
+  font-size: 16px;
+  color: #919191; }
+
+.content-top-bar {
+  background-color: #111315;
+  width: 80%;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: -30px;
+  padding: 11px; }
+
 .footer-bar {
   background-color: #111315;
   height: 75px;
   width: 100%; }
+
+.mem-img {
+  width: 200px;
+  height: auto;
+  border-radius: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: -8px 10px 5px 2px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: -8px 10px 5px 2px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: -8px 10px 5px 2px rgba(0, 0, 0, 0.6); }
+
+.member-content {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #2C3539; }
+
+.mem-head-font {
+  font-family: "Dosis", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  color: #2C3539; }
 
 /*# sourceMappingURL=main.css.map */

@@ -6,7 +6,7 @@
     font: {
         family: $head-font;
         size: 35px;
-        weight: 500;
+        weight: 600;
     }
     position: relative;
     top: 10px;
@@ -21,15 +21,7 @@ main {
 }
 
 .welcome-section {
-    background-color: $content-bg-color;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    height: auto;
-    width: 80%;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    padding: 25px;
+    @include content-holder;
 }
 
 .content-head-font {
@@ -41,13 +33,18 @@ main {
 }
 
 .divider {
-    background-color: $bar-color;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    height: 3px;
-    width: 15%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-radius: 25px;
+    @include divider;
+}
+
+.date-text {
+    font: {
+        family: $content-font;
+        weight: 400i;
+        size: 16px;
+    }
+    color: $content-font-grey;
+}
+
+.content-top-bar {
+    @include content-holder-bar;
 }
