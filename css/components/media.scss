@@ -1,0 +1,8 @@
+.media-content {
+    @include content-font;
+}
+
+.media-head-font {
+    @include content-header;
+    color: $content-font-color;
+}
