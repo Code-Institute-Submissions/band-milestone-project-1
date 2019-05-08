@@ -140,4 +140,35 @@ main {
   color: white;
   color: #2C3539; }
 
+.book-content {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #2C3539; }
+
+.book-head-font {
+  font-family: "Dosis", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  color: #2C3539; }
+
+.input-bar {
+  background-color: #111315;
+  color: #919191;
+  border-radius: 15px;
+  margin-top: -10px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px; }
+
+.form-element {
+  color: #919191;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px; }
+
+@media only screen and (max-width: 500px) {
+  .input-bar {
+    width: 200px; } }
+
 /*# sourceMappingURL=main.css.map */

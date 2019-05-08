@@ -1,0 +1,34 @@
+.book-content {
+    @include content-font;
+}
+
+.book-head-font {
+    @include content-header;
+    color: $content-font-color;
+}
+
+.input-bar {
+    background-color: $bar-color;
+    color: $content-font-grey;
+    border-radius: 15px;
+    margin-top: -10px;
+    font: {
+        family: $content-font;
+        size: 22px;
+    }
+}
+
+.form-element {
+    color: $content-font-grey;
+    text-align: center;
+    font: {
+        family: $content-font;
+        size: 22px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .input-bar {
+        width: 200px;
+    }
+} 
