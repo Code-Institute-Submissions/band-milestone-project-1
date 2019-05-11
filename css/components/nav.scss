@@ -10,11 +10,19 @@ nav ul li a {
         weight: 700;
         size: 22px;
     }
-    position: relative;
-    top: 10px;
+
 }
 
 nav ul li a:hover {
     text-decoration: none;
     color: $content-font-grey;
+    animation-name: border-change;
+    animation-duration: 1s;
+}
+
+@keyframes border-change {
+  from {border-top: solid 3px $main-bg-color;}
+  from {border-bottom: solid 3px $main-bg-color;}
+  to {border-top: solid 3px $bar-color;}
+  to {border-bottom: solid 3px $bar-color;}
 }
